@@ -43,10 +43,10 @@ header.hero .addr{color:#f1e6d8;text-shadow:0 1px 8px rgba(0,0,0,.6);margin-bott
 main{padding-top:28px}
 
 footer{text-align:center;color:#6b5f57;font-size:.85rem;border-top:1px solid var(--line);padding-top:20px}
-.hero-order{position:absolute;top:10px;right:10px;z-index:2;display:block;width:clamp(130px,42vw,176px);line-height:0}
-.hero-order img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.hero-tyh{position:absolute;top:10px;left:10px;z-index:2;width:clamp(96px,32vw,140px);line-height:0;pointer-events:none}
-.hero-tyh img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
+.hero-order,.hero-tyh{position:absolute;top:10px;z-index:2;display:block;line-height:0;--bh:clamp(56px,18.2vw,84px)}
+.hero-order{right:10px}
+.hero-tyh{left:10px;pointer-events:none}
+.hero-order img,.hero-tyh img{display:block;height:var(--bh);width:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
 footer a{color:inherit}
 </style>
 </head>
